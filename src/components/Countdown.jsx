@@ -109,8 +109,8 @@ function Countdown({ onBirthdayReached, birthdayReached }) {
       >
         🎉 Test Celebration
       </button> 
-      {/* ⚠️ END TEST BUTTON - DELETE UP TO HERE ⚠️ */}
-    */}
+      HERE ⚠️ */}
+      {/* ⚠️ END TEST BUTTON - DELETE UP TO 
     </section>
   );
 }
