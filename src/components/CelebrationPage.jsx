@@ -424,7 +424,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="message"
                   onClick={() => handleButtonClick("message")}
                 >
-                  💌 Well, I Have a Message for You Madam Ji
+                  💌 Well, I Have a Message for You Sir Ji
                 </button>
               )}
             </div>
@@ -472,10 +472,10 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
  "✨","🌷",
 ]
 
-                    .map((letter, i) => (
+                    {/*  .map((letter, i) => (
                     <div key={i} className={`bunting-flag flag-${i % 3}`}>
                       {letter}
-                    </div>
+                    </div>*/}
                   ))}
                 </div>
               </div>
