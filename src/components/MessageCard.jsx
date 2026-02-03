@@ -13,7 +13,7 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+ /* const message = `[Recipient Name],
 
 Your personalized birthday message goes here.
 
@@ -26,7 +26,30 @@ so feel free to customize it completely to fit your style.
 Happy Birthday! 🎉
 
 — [Your Name]`;
+*/
 
+const recipientName = "Hits ✨🌷";
+const senderName = "yours Nandi babyy🫂"; // optional, you can leave this empty
+const message = `
+Kehte hain na, kuch log zindagi mein achanak aate hain
+aur phir poori zindagi ka matlab ban jaate hain…
+
+Hits, tum mere liye wahi ho.
+
+Tumhari ek smile mere saare din ko theek kar deti hai,
+tumhari ek baat mere dil ko sukoon de jaati hai.
+
+Main promise nahi karti ke humesha perfect rahungi,
+par yeh zaroor promise hai ke
+har version of you, har phase of life mein — I’ll choose you.
+
+Happy Birthday, mere favourite insaan 💕
+
+Aaj ka din tumhara hai,
+par tumhara dil… woh toh kab ka mera ho chuka hai 🌷
+`;
+
+  
   // Handle page transitions
   useEffect(() => {
     // Only trigger on transition to active
