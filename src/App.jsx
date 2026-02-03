@@ -5,7 +5,7 @@ import "./App.css";
 import CelebrationPage from "./components/CelebrationPage";
 import Countdown from "./components/Countdown";
 import Effects from "./components/Effects";
-import Gallery from "./components/Gallery";
+//import Gallery from "./components/Gallery";
 import Hearts from "./components/Hearts";
 import MessageCard from "./components/MessageCard";
 import MusicPlayer from "./components/MusicPlayer";
@@ -160,7 +160,7 @@ function App() {
       </div>
 
       {/* PAGE 4: Gallery */}
-      <div
+            {/* <div
         ref={page4Ref}
         className={`page ${currentPage === 4 ? "active" : ""}`}
         style={{ visibility: currentPage === 4 ? "visible" : "hidden" }}
@@ -174,7 +174,8 @@ function App() {
           <p className="final-subtitle">Your personalized closing message ✨</p>
         </section>
       </div>
-
+      */}
+            
       {/* Effects */}
       {showEffects && <Effects />}
     </div>
