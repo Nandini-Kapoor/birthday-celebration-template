@@ -27,7 +27,9 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
   const [showConfetti, setShowConfetti] = useState(false);
 
   // QNA Slides data
+  {/*
   const slides = [
+    
     {
       icon: "✨",
       text: "It's Your Special Day Yeyey!",
@@ -47,7 +49,32 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
       text: "Have a look at it, Sir Jiii",
       type: "announcement",
     },
-  ];
+    ];
+    */}
+
+    const slides = [
+  {
+    icon: "✨",
+    text: "Aaj ka din thoda special hai… sirf tumhare liye 💫",
+    type: "announcement",
+  },
+  {
+    icon: "✨",
+    text: "Hits ✨🌷, ready ho apni birthday celebration ke liye?",
+    type: "question",
+    options: [
+      { text: "Hamesha 😌", value: "yes" },
+      { text: "Surprise me 👀", value: "no" },
+    ],
+  },
+  {
+    icon: "✨",
+    text: "Toh phir… yeh sab tumhare liye 💖",
+    type: "announcement",
+  },
+];
+
+  
 
   // Handle slide progression
   const handleNext = () => {
@@ -332,10 +359,18 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
         <>
           {/* Buttons Section - At the TOP */}
           <div className="celebration-buttons">
-            <h2 className="celebration-title">Let's Celebrate! 🎉</h2>
+            {/* <h2 className="celebration-title">Let's Celebrate! 🎉</h2>
             <p className="celebration-subtitle">
               Click the buttons to decorate
-            </p>
+            </p>*/}
+
+            <h2 className="celebration-title">
+  Let’s Celebrate You, Hits ✨🌷
+</h2>
+<p className="celebration-subtitle">
+  Because 06•02•2004 gave the world someone very special 💫
+</p>
+
 
             <div className="buttons-grid">
               {/* Lights Button - Shows first, hides after click */}
@@ -432,14 +467,13 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                     "d",
                     "a",
                     "y",
-                    " ",
-                    "H", 
-                    "i",
-                    "t",
-                    "s",
-                    "✨",
-                    "🌷",
-                  ].map((letter, i) => (
+                  ]
+                    [
+ "H","i","t","s"," ",
+ "✨","🌷",
+]
+
+                    .map((letter, i) => (
                     <div key={i} className={`bunting-flag flag-${i % 3}`}>
                       {letter}
                     </div>
