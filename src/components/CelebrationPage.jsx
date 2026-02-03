@@ -467,8 +467,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                     "d",
                     "a",
                     "y",
-                  ]
-                    [
+                    " ",
  "H","i","t","s"," ",
  "✨","🌷",
 ]
