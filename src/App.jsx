@@ -160,7 +160,17 @@ function App() {
       </div>
 
       {/* PAGE 4: Gallery */}
-            {/* <div
+     
+      <p className="goodbye-text">
+  That’s all for now, Hits ✨🌷 <br />
+  I hope this made you smile 💖 <br />
+  Happy Birthday once again 🎂<br />
+  — From me 😌
+</p>
+
+
+      
+      {/* <div
         ref={page4Ref}
         className={`page ${currentPage === 4 ? "active" : ""}`}
         style={{ visibility: currentPage === 4 ? "visible" : "hidden" }}
