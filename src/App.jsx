@@ -96,16 +96,16 @@ function App() {
           <h1 id="heroTitle">
             {birthdayReached ? (
               <>
-                Happy Birthday <span className="highlight">[Name]</span> 🎂
+                Happy Birthday <span className="highlight">Hits🫂</span> 🎂
               </>
             ) : (
               <>
-                Counting down to <span className="highlight">[Name]'s</span>{" "}
+                Counting down to <span className="highlight">Hits's</span>{" "}
                 special day 🎂
               </>
             )}
           </h1>
-          <p>Your personalized message goes here 💗</p>
+          <p>Are you ready to open this my dear...</p>
         </section>
 
         <Countdown
@@ -155,7 +155,7 @@ function App() {
         </button>
         <MessageCard isActive={currentPage === 3} />
         <button className="page-nav-btn" onClick={() => goToPage(4)}>
-          📸 View Our Memories
+          C' yaa now.. gotta goo.. LOVE YOUU💪🏼❤️
         </button>
       </div>
 
