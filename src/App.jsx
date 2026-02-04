@@ -154,35 +154,15 @@ function App() {
           ← Back
         </button>
         <MessageCard isActive={currentPage === 3} />
-        <button className="page-nav-btn" onClick={() => goToPage(4)}>
-          C' yaa now.. gotta goo.. LOVE YOUU💪🏼❤️
+        <button className="page-nav-btn" onClick={() => goToPage(2)}>
+          That’s all for now, Hits ✨🌷 <br />
+  I hope this made you smile 💖 <br />
+  Happy Birthday once again 🎂<br />
+          LOVE YOUU💪🏼❤️<br/>
         </button>
       </div>
 
       {/* PAGE 4: Gallery */}
-
-
-      <div
-        ref={page4Ref}
-        className={`page ${currentPage === 4 ? "active" : ""}`}
-        style={{ visibility: currentPage === 4 ? "visible" : "hidden" }}
-      >
-        <button className="back-btn" onClick={() => goToPage(3)}>
-          ← Back
-        </button>
-        <section className="final">
-          <h2 className="final-message">💖 Forever Yours — Nandi baby💖</h2>
-        
-
-      
-      <p className="goodbye-text">
-  That’s all for now, Hits ✨🌷 <br />
-  I hope this made you smile 💖 <br />
-  Happy Birthday once again 🎂<br />
-  — From me 😌
-</p>
-        </section>
-      </div>
       
       {/* <div
         ref={page4Ref}
