@@ -468,8 +468,13 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                     "a",
                     "y",
                     " ",
- "H","i","t","s"," ",
- "✨","🌷",
+                    "H",
+                    "i",
+                    "t",
+                    "s",
+                    " ",
+                    "✨",
+                    "🌷",
 ]
 
                   } {/*  .map((letter, i) => (
