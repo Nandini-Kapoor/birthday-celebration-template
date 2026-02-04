@@ -154,7 +154,7 @@ function App() {
           ← Back
         </button>
         <MessageCard isActive={currentPage === 3} />
-        <button className="page-nav-btn" onClick={() => goToPage(2)}>
+        <button className="page-nav-btn" onClick={() => goToPage(1)}>
           That’s all for now, Hits ✨🌷 <br />
   I hope this made you smile 💖 <br />
   Happy Birthday once again 🎂<br />
